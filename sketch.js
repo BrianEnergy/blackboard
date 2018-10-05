@@ -1,5 +1,5 @@
 
-var colors = ["orange", "blue", "green", "white", "red", "yellow", "black"]; //array of colors
+var colors = ["orange", "blue", "green", "white", "red", "yellow", "magenta", "purple", "cyan", "teal", "black"]; //array of colors
 var colorIndex = 0; //color index number
 var colorWeight = 2; //line weight
 
@@ -65,8 +65,14 @@ function keyPressed() {
 		colorIndex = colors.indexOf("red");
 	} else if (keyCode === 89) {
 		colorIndex = colors.indexOf("yellow");
-	} else if (keyCode === 66) {
-		colorIndex = colors.indexOf("blue");
+	} else if (keyCode === 77) {
+		colorIndex = colors.indexOf("magenta");
+	} else if (keyCode === 80) {
+		colorIndex = colors.indexOf("purple");
+	} else if (keyCode === 67) {
+		colorIndex = colors.indexOf("cyan");
+	} else if (keyCode === 84) {
+		colorIndex = colors.indexOf("teal");
 	} else if (keyCode === 32) {
 		colorIndex = colors.indexOf("black");
 	}
