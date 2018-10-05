@@ -1,10 +1,10 @@
 
 var colors = ["orange", "blue", "green", "white", "red", "yellow", "black"]; //array of colors
 var colorIndex = 0; //color index number
-var colorWeight = 4; //line weight
+var colorWeight = 2; //line weight
 
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+	createCanvas(windowWidth, 5000);
 	background("black");
 }
 
@@ -76,6 +76,5 @@ function keyPressed() {
 		saveCanvas('myCanvas', 'png');
 	}
 	//END SCREENSHOT-------------------------
-
 }
 
